@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about {
+    margin-top: 3%;
+    padding-left: 5%;
+}
+
+
+.about li{
+    padding:4px;
+}
+
+ .headshot{
+    padding:30px;
+     }
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.237);
+}
+
+
+#home {
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: left;
+    vertical-align: text-top;
+    color: black;
+}
+
+#initials {
+    font-family: "Pinyon Script", cursive;
+    font-style: normal;
+    font-size: 26px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-inline: 18px;
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: none;
+}

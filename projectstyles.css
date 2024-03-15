@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:white; 
+    margin-top:1%;
+}
+
+#home {
+    list-style: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: left;
+    vertical-align: text-top;
+    color: black;
+}
+
+#initials {
+    font-family: "Pinyon Script", cursive;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-inline: 18px;
+    margin-right: 20px;
+    text-align: left;
+    color: black;
+}
+
+.image-container {
+        background-image: url("/jensawyer.jpg");
+        opacity: 100%;
+        background-color: #cccccc;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* filter: grayscale(75%); */
+        margin-top:1%;
+}
+
+ 
+/* .image-container:hover { */
+    /* opacity: 85%; */
+    /* filter: none; */
+/* }    */
+
+.overlay-text {
+    font-family: "Pinyon Script", cursive;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    color: rgb(221, 221, 221);
+}
+
+.tiles {
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:2%; 
+
+}
+
+#slogan {
+    text-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width:25%
+    }
+
+#image1 {
+    height: 250px;
+    display: flex;
+    /* opacity: 100%; */
+    /* filter: grayscale(85%); */
+    border: 1px solid black;
+}
+
+#image2 {
+    height: 250px;  
+    display: flex;
+    /* opacity: 100%; */
+    /* filter: grayscale(85%); */
+    border: 1px solid black;
+}
+#image3 {
+    height: 250px;
+    display: flex;
+    /* opacity: 100%; */
+    /* filter: grayscale(85%); */
+    border: 1px solid black;
+}
+
+#image4 {
+    height: 250px;
+    display: flex;
+    /* opacity: 100%; */
+    /* filter: grayscale(85%); */
+    border: 1px solid black;
+}
+
+/* #image1:hover { */
+    /* opacity: 85%; */
+    /* filter: none; */
+/* } */
+
+/* #image2:hover { */
+    /* opacity: 85%; */
+    /* filter: none; */
+/* } */
+
+/* #image3:hover { */
+    /* opacity: 85%; */
+    /* filter: none; */
+/* } */
+
+/* #image4:hover { */
+    /* opacity: 85%; */
+    /* filter: none; */
+/* } */
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: none;
+}
